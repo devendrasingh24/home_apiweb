@@ -9,7 +9,7 @@ const Home = () => {
       <Commom
         name="Grow your business with"
         imgsrc={web}
-        visit="/service"
+        visit="/blog"
         btname="Get Started"
       />
     </>

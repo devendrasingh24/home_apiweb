@@ -7,10 +7,10 @@ const Navbar = () => {
       <div className="container-fluid nav_bg">
         <div className="row">
           <div className="col-10 mx-auto">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{}}>
               <div className="container-fluid">
                 <NavLink className="navbar-brand" to="/">
-                  ThapaTechnical
+                  Devendra
                 </NavLink>
                 <button
                   className="navbar-toggler"
@@ -43,6 +43,15 @@ const Navbar = () => {
                       <NavLink
                         activeClassName="menu_active"
                         className="nav-link"
+                        to="/blog"
+                      >
+                        Blog
+                      </NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink
+                        activeClassName="menu_active"
+                        className="nav-link"
                         to="/service"
                       >
                         Services
@@ -68,6 +77,7 @@ const Navbar = () => {
                         Contact
                       </NavLink>
                     </li>
+                    
                   </ul>
                 </div>
               </div>
