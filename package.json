@@ -1,5 +1,5 @@
 {
-  "name": "reactapp",
+  "name": "home_apiweb",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,5 +34,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thapatechnical/reactjswebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thapatechnical/reactjswebsite/issues"
+  },
+  "homepage": "https://github.com/thapatechnical/reactjswebsite#readme"
 }
